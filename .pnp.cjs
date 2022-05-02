@@ -62,7 +62,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-dts", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.2.0"],\
             ["rollup-plugin-peer-deps-external", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:2.2.4"],\
             ["rollup-plugin-postcss", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.0.2"],\
-            ["rollup-plugin-terser", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:7.0.2"],\
             ["storybook-addon-turbo-build", "npm:1.1.0"],\
             ["ts-jest", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:27.1.4"],\
             ["tslib", "npm:2.3.1"],\
@@ -3716,7 +3715,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-dts", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.2.0"],\
             ["rollup-plugin-peer-deps-external", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:2.2.4"],\
             ["rollup-plugin-postcss", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.0.2"],\
-            ["rollup-plugin-terser", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:7.0.2"],\
             ["storybook-addon-turbo-build", "npm:1.1.0"],\
             ["ts-jest", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:27.1.4"],\
             ["tslib", "npm:2.3.1"],\
@@ -19315,32 +19313,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/postcss",\
             "postcss"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["rollup-plugin-terser", [\
-        ["npm:7.0.2", {\
-          "packageLocation": "./.yarn/cache/rollup-plugin-terser-npm-7.0.2-3f55469f5a-af84bb7a7a.zip/node_modules/rollup-plugin-terser/",\
-          "packageDependencies": [\
-            ["rollup-plugin-terser", "npm:7.0.2"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:7.0.2", {\
-          "packageLocation": "./.yarn/__virtual__/rollup-plugin-terser-virtual-0e415dd754/0/cache/rollup-plugin-terser-npm-7.0.2-3f55469f5a-af84bb7a7a.zip/node_modules/rollup-plugin-terser/",\
-          "packageDependencies": [\
-            ["rollup-plugin-terser", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:7.0.2"],\
-            ["@babel/code-frame", "npm:7.16.7"],\
-            ["@types/rollup", null],\
-            ["jest-worker", "npm:26.6.2"],\
-            ["rollup", "npm:2.70.1"],\
-            ["serialize-javascript", "npm:4.0.0"],\
-            ["terser", "npm:5.12.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/rollup",\
-            "rollup"\
           ],\
           "linkType": "HARD"\
         }]\
