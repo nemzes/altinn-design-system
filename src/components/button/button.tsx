@@ -1,6 +1,6 @@
 import React from 'react';
 
-import tokens from '@altinn/figma-design-tokens';
+import * as tokens from '@altinn/figma-design-tokens';
 import jsonTokens from '@altinn/figma-design-tokens/dist/tokens.json';
 
 import '@altinn/figma-design-tokens/dist/tokens.css';
@@ -14,8 +14,8 @@ const Button = (props: ButtonProps) => {
     <button
       style={{
         padding: 'var(--space-comfortable)',
-        paddingLeft: tokens.SpaceTight,
-        paddingRight: jsonTokens.space.standard.value,
+        paddingLeft: tokens.SpaceX4,
+        paddingRight: jsonTokens.space.x4.value,
       }}
     >
       {props.label}

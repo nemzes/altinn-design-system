@@ -33,10 +33,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@altinn/figma-design-tokens", "npm:0.0.12::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.12%2F270f4685c8fadc030e77b4a70d80203190a1df3e4ab212054f3d768b13367055"],\
+            ["@altinn/figma-design-tokens", "npm:0.0.26::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.26%2Fd4860e1aea49ce7529087d9b076fe6ff44a635ee8a7a36f1080af52caf87d80b"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@mdx-js/react", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:1.6.22"],\
             ["@rollup/plugin-commonjs", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:21.0.3"],\
+            ["@rollup/plugin-json", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.1.0"],\
             ["@rollup/plugin-node-resolve", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:13.1.3"],\
             ["@rollup/plugin-typescript", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:8.3.1"],\
             ["@storybook/addon-actions", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:6.4.20"],\
@@ -72,10 +73,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@altinn/figma-design-tokens", [\
-        ["npm:0.0.12::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.12%2F270f4685c8fadc030e77b4a70d80203190a1df3e4ab212054f3d768b13367055", {\
-          "packageLocation": "./.yarn/cache/@altinn-figma-design-tokens-npm-0.0.12-8a824ad593-7fdeadadf5.zip/node_modules/@altinn/figma-design-tokens/",\
+        ["npm:0.0.26::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.26%2Fd4860e1aea49ce7529087d9b076fe6ff44a635ee8a7a36f1080af52caf87d80b", {\
+          "packageLocation": "./.yarn/cache/@altinn-figma-design-tokens-npm-0.0.26-2fcdc3ed1f-8650b1a6e2.zip/node_modules/@altinn/figma-design-tokens/",\
           "packageDependencies": [\
-            ["@altinn/figma-design-tokens", "npm:0.0.12::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.12%2F270f4685c8fadc030e77b4a70d80203190a1df3e4ab212054f3d768b13367055"]\
+            ["@altinn/figma-design-tokens", "npm:0.0.26::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.26%2Fd4860e1aea49ce7529087d9b076fe6ff44a635ee8a7a36f1080af52caf87d80b"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3686,10 +3687,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@nemzes/altinn-design-system", "workspace:."],\
-            ["@altinn/figma-design-tokens", "npm:0.0.12::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.12%2F270f4685c8fadc030e77b4a70d80203190a1df3e4ab212054f3d768b13367055"],\
+            ["@altinn/figma-design-tokens", "npm:0.0.26::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40altinn%2Ffigma-design-tokens%2F0.0.26%2Fd4860e1aea49ce7529087d9b076fe6ff44a635ee8a7a36f1080af52caf87d80b"],\
             ["@babel/core", "npm:7.17.8"],\
             ["@mdx-js/react", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:1.6.22"],\
             ["@rollup/plugin-commonjs", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:21.0.3"],\
+            ["@rollup/plugin-json", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.1.0"],\
             ["@rollup/plugin-node-resolve", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:13.1.3"],\
             ["@rollup/plugin-typescript", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:8.3.1"],\
             ["@storybook/addon-actions", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:6.4.20"],\
@@ -3877,6 +3879,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-reference", "npm:1.2.1"],\
             ["magic-string", "npm:0.25.9"],\
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"],\
+            ["rollup", "npm:2.70.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/rollup",\
+            "rollup"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rollup/plugin-json", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/@rollup-plugin-json-npm-4.1.0-c932de6f49-867bc9339b.zip/node_modules/@rollup/plugin-json/",\
+          "packageDependencies": [\
+            ["@rollup/plugin-json", "npm:4.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@rollup-plugin-json-virtual-6379112d01/0/cache/@rollup-plugin-json-npm-4.1.0-c932de6f49-867bc9339b.zip/node_modules/@rollup/plugin-json/",\
+          "packageDependencies": [\
+            ["@rollup/plugin-json", "virtual:f51071bf01771e94f38dada1f1fab6d8cba29b5bca2abfc31dd2a05f10f818c6db70dc46d1f007532f8f1426eb93e5c733050437ba33344d02a1f5d732d46e4f#npm:4.1.0"],\
+            ["@rollup/pluginutils", "virtual:9203adae2d5c2cc0cd1ab2d0dee81202f7d3300bc52fec7e0bdb211a1c2d3a6a5600228a88fec253f0d5a410c1b5be805e08577fbc1f431520380a4e73a3f689#npm:3.1.0"],\
+            ["@types/rollup", null],\
             ["rollup", "npm:2.70.1"]\
           ],\
           "packagePeers": [\
